@@ -43,10 +43,10 @@ A Busca Binária é um algoritmo de busca eficiente que encontra a posição de 
 ## Funções
 
 ### `Normalizar`
-A função `Normalizar` provavelmente é usada para escalar os dados de tempo de execução ou tamanho de entrada para um intervalo padrão, como entre 0 e 1. A normalização é útil ao comparar o desempenho de diferentes algoritmos ou ao preparar dados para visualização.
+A função `Normalizar` é usada para escalar os dados de tempo de execução ou tamanho de entrada para um intervalo padrão, como entre 0 e 1. A normalização é útil ao comparar o desempenho de diferentes algoritmos ou ao preparar dados para visualização.
 
 ### `calcular erro`
-A função `calcular erro` é provavelmente usada para calcular a diferença entre os tempos de execução observados e os tempos de execução previstos por um modelo de complexidade teórica. Isso ajuda a avaliar o quão bem o modelo teórico se ajusta aos dados empíricos.
+A função `calcular erro` é usada para calcular a diferença entre os tempos de execução observados e os tempos de execução previstos por um modelo de complexidade teórica. Isso ajuda a avaliar o quão bem o modelo teórico se ajusta aos dados empíricos.
 
 ### `melhorAjuste`
-A função `melhorAjuste` provavelmente implementa um método de ajuste de curva para encontrar a função que melhor descreve a relação entre o tamanho da entrada e o tempo de execução. Isso pode ser usado para determinar empiricamente a complexidade de tempo de um algoritmo.
+A função `melhorAjuste` implementa um método de ajuste de curva para encontrar a função que melhor descreve a relação entre o tamanho da entrada e o tempo de execução. Isso pode ser usado para determinar empiricamente a complexidade de tempo de um algoritmo.
