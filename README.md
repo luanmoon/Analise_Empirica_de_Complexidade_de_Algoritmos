@@ -1,7 +1,5 @@
 # Análise Empírica de Complexidade de Algoritmos
 
-Este repositório contém implementações de algoritmos de ordenação e busca, juntamente com funções para a análise empírica de sua complexidade.
-
 ## Algoritmos
 
 ### Bubble Sort (Ordenação por Bolha)
