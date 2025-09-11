@@ -7,7 +7,7 @@
 * **`benchmark.c`**: Contém as funções para medir o tempo de execução dos algoritmos de ordenação e busca.
 * **`benchmark.h`**: O cabeçalho para `benchmark.c`, com as declarações das funções de benchmark.
 * **`Gráfico_de_análise_comparativa.py`**: Um script Python que lê os dados do arquivo `resultados.csv` e gera um gráfico comparando os tempos de execução empíricos com as funções de complexidade teórica.
-* **`README.md`**: Descreve os algoritmos, suas complexidades e as funções auxiliares.
+* **`README.md`**: Descreve o projeto.
   
 ## Algoritmos
 
