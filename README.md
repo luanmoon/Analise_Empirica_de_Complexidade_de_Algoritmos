@@ -10,7 +10,7 @@ O projeto é composto por sete arquivos, cada um com uma responsabilidade espec�
 * **`benchmark.h`**: O cabeçalho para `benchmark.c`, com as declarações das funções de benchmark.
 * **`Gráfico_de_análise_comparativa.py`**: Um script Python que lê os dados do arquivo `resultados.csv` e gera um gráfico comparando os tempos de execução empíricos com as funções de complexidade teórica.
 * **`README.md`**: Descreve os algoritmos, suas complexidades e as funções auxiliares.
-* 
+  
 ## Algoritmos
 
 ### Bubble Sort (Ordenação por Bolha)
