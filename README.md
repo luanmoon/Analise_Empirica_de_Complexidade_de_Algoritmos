@@ -1,5 +1,16 @@
 # Análise Empírica de Complexidade de Algoritmos
+### Estrutura do Projeto
 
+O projeto é composto por sete arquivos, cada um com uma responsabilidade específica:
+
+* **`main.c`**: O arquivo principal que executa os testes de desempenho, chama as funções de medição de tempo e salva os resultados em um arquivo CSV. Ele também inclui funções para encontrar o modelo de complexidade teórica que melhor se ajusta aos dados empíricos.
+* **`algorithms.c`**: Contém a implementação dos algoritmos de ordenação (**Bubble Sort**, **Insertion Sort**) e de busca (**Busca Sequencial**, **Busca Binária**). Também inclui funções auxiliares para preencher e copiar arrays.
+* **`algorithms.h`**: O cabeçalho que declara as funções contidas em `algorithms.c`.
+* **`benchmark.c`**: Contém as funções para medir o tempo de execução dos algoritmos de ordenação e busca.
+* **`benchmark.h`**: O cabeçalho para `benchmark.c`, com as declarações das funções de benchmark.
+* **`Gráfico_de_análise_comparativa.py`**: Um script Python que lê os dados do arquivo `resultados.csv` e gera um gráfico comparando os tempos de execução empíricos com as funções de complexidade teórica.
+* **`README.md`**: Descreve os algoritmos, suas complexidades e as funções auxiliares.
+* 
 ## Algoritmos
 
 ### Bubble Sort (Ordenação por Bolha)
@@ -11,7 +22,7 @@ O Bubble Sort é um algoritmo de ordenação simples que percorre repetidamente 
     - **Melhor Caso:** $O(n)$
 - **Complexidade de Espaço:** $O(1)$
 
-### Insertion Sort (Ordenação por Inserção)
+### Insertion Sort 
 O Insertion Sort é um algoritmo de ordenação que constrói a matriz ordenada final um item de cada vez. É muito menos eficiente em listas grandes do que algoritmos mais avançados, como quicksort, heapsort ou merge sort.
 
 - **Complexidade de Tempo:**
