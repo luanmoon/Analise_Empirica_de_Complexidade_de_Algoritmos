@@ -8,7 +8,11 @@
 * **`benchmark.h`**: O cabeçalho para `benchmark.c`, com as declarações das funções de benchmark.
 * **`Gráfico_de_análise_comparativa.py`**: Um script Python que lê os dados do arquivo `resultados.csv` e gera um gráfico comparando os tempos de execução empíricos com as funções de complexidade teórica.
 * **`README.md`**: Descreve o projeto.
-  
+
+### Compilação e Execução
+
+Para compilar e executar o projeto, Use o comando  `make plot` executa o programa, mede os tempos de execução dos algoritmos e, em seguida, gera o gráfico de análise comparativa.
+
 ## Algoritmos
 
 ### Bubble Sort (Ordenação por Bolha)
