@@ -11,7 +11,7 @@
 
 ### Execução
 
-Para executar o projeto, Use o comando  `make plot` executa o programa, mede os tempos de execução dos algoritmos e, em seguida, gera o gráfico de análise comparativa.
+Para executar o projeto, Use o comando  `make plot`. Isso executa o programa, mede os tempos de execução dos algoritmos e, em seguida, gera o gráfico de análise comparativa.
 
 ## Algoritmos
 
