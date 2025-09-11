@@ -1,8 +1,6 @@
 # Análise Empírica de Complexidade de Algoritmos
 ### Estrutura do Projeto
 
-O projeto é composto por sete arquivos, cada um com uma responsabilidade específica:
-
 * **`main.c`**: O arquivo principal que executa os testes de desempenho, chama as funções de medição de tempo e salva os resultados em um arquivo CSV. Ele também inclui funções para encontrar o modelo de complexidade teórica que melhor se ajusta aos dados empíricos.
 * **`algorithms.c`**: Contém a implementação dos algoritmos de ordenação (**Bubble Sort**, **Insertion Sort**) e de busca (**Busca Sequencial**, **Busca Binária**). Também inclui funções auxiliares para preencher e copiar arrays.
 * **`algorithms.h`**: O cabeçalho que declara as funções contidas em `algorithms.c`.
